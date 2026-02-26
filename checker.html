@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+
+    <link rel="stylesheet" href="checker.css">
+    <title>Intramurals Checker</title>
+</head>
+
+<body>
+<div class="card">
+    <h2>Intramurals Checker</h2>
+
+    <p>Are you done with the online registration?</p>
+    <input type="radio" name="register" value="yes"> Yes
+    <input type="radio" name="register" value="no"> No
+
+    <p>Do you have the medical clearance from the clinic?</p>
+    <input type="radio" name="medical" value="yes"> Yes
+    <input type="radio" name="medical" value="no"> No
+
+    <p>What's your Grade & Section?</p>
+
+    <select id="grade">
+        <option value="">Select Grade</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+
+    <select id="section">
+        <option value="">Select Section</option>
+        <option>Ruby</option>
+        <option>Emerald</option>
+        <option>Sapphire</option>
+        <option>Topaz</option>
+    </select>
+
+    <br><br>
+
+    <button py-click="checkteam">Sign Up</button>
+
+    <div class="output" id="output"></div>
+    <div class="image" id="image"></div>
+
+    <br>
+    <a href="index.html">
+    <button type="button" class="back-btn">⬅ Back to Home</button>
+    </a>
+</div>
+
+<script type="py" src="main.py"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Skills Test</title>
+</head>
+<body>
+<div class="container">
+    <div class="icon">
+    <i class="fas fa-medal"></i>
+
+    <h1> Welcome Student! </h1>
+    <h2>Create your account here</h2>
+
+    <form>
+        <input type="text" id="username" class="form-control" placeholder="Enter your username"> <br><br>
+        <input type="password" id="password" class="form-control" placeholder="Create your password here"> <br><br>
+        <input type="button" class="btn-primary" py-click="signin" value="Enter" style="color:antiquewhite; background-color: blueviolet"> <br> <br>
+    
+    </form>
+    <div id="passwordalert"></div>
+
+<br>
+    <a href="index.html">
+    <button type="button" class="back-btn">⬅ Back to Home</button>
+    </a>
+</div>
+</div>
+    <py-script src="main.py"></py-script>
+</body>
+
+</html>
