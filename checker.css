@@ -41,7 +41,7 @@ select {
     margin: 10px 5px;
     border-radius: 50px;
     border: none;
-    background: rgba(255,255,255,0.1);
+    background: rgba(55,55,55,55,.01);
     color: black;
 }
 
@@ -91,4 +91,5 @@ li {
     cursor: pointer;
 
 }
+
 
